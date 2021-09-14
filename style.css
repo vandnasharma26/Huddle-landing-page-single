@@ -1,0 +1,122 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media screen and (min-width: 700px) {
+  body{
+    background-image: url(images/bg-desktop.svg);
+  }
+}
+
+main {
+  margin: 1.5rem;
+}
+
+#logo {
+  width: 45%;
+  margin-bottom: 2.2rem;
+}
+
+#illustration {
+  width: 100%;
+}
+
+.content {
+text-align: center;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.button{
+  border-radius: 25px;
+  width: 80%;
+  height: 2rem;
+  background-color: white;
+  border-color: white;
+  color: hsl(257, 40%, 49%);
+  margin: auto;
+  text-align: center;
+  padding-top: 0.5em;
+  margin-top: 1.5em;
+  box-shadow: 2px 2px 2px #433F3F;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 3rem;
+  word-spacing: 15px;
+}
+
+.icons-icon {
+  width: 10%;
+}
+
+.button:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  box-shadow: 5px 5px 3px  #433F3F;
+}
+
+.icons-icon:hover {
+  filter: invert(51%) sepia(95%) saturate(1781%) hue-rotate(294deg) brightness(97%) contrast(99%);
+}
+
+@media screen and (min-width: 700px) {
+  body{
+    margin: auto 50px;
+  }
+
+  .deskop-main {
+    display: flex;
+  }
+
+  #logo {
+    width: 13%;
+    margin-bottom: 3rem;
+  }
+
+  .content {
+    text-align: left;
+    padding: 1.6rem 4rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+  }
+
+  .button {
+    margin: 0;
+    width: 30%;
+  }
+
+  .icons-icon {
+    width: 2%;
+  }
+
+  .icons {
+    text-align: right;
+    position: relative;
+    right: 80px;
+  }
+
+  #illustration {
+    width: 50%;
+  }
+
+  .content {
+    width: 50%;
+  }
+}
