@@ -36,7 +36,7 @@ Mobile-View :
 ### Links
 
 - Solution URL: [https://github.com/vandnasharma26/Huddle-landing-page-single/]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://vandnasharma26.github.io/Huddle-landing-page-single/]
 
 ## My process
 
